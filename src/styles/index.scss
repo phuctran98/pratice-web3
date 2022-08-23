@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext");
+@import url("https://fonts.googleapis.com/css?family=Inter");
+@import '../common/customantd.scss';
+
+@font-face {
+  font-family: "Roboto-Regular";
+  src: local("Roboto-Regular"), url(./fonts/Roboto-Regular.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Roboto-Bold";
+  src: local("Roboto-Bold"), url(./fonts/Roboto-Bold.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Roboto-Italic";
+  src: local("Roboto-Italic"), url(./fonts/Roboto-Italic.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Roboto-Medium";
+  src: local("Roboto-Medium"), url(./fonts/Roboto-Medium.woff) format("woff");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  font-size: 14px;
+}
+
+.__Latex__ {
+  background: none;
+  margin-left: 0;
+  padding: 0;
+  border-radius: 0;
+  height: auto;
+}
+
+.katex {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.katex .mathnormal {
+  font-family: Roboto !important;
+  font-style: normal !important;
+}
+
+//Latex table airdrop
+.ant-table-cell  span.__Latex__  span.katex {
+  font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+}
+
+//Latex card aidrop
+.__Latex__  span.katex {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.__Latex__  span.katex svg {
+  color: inherit;
+}
