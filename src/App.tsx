@@ -1,5 +1,5 @@
-import './App.css';
 import React, { Component } from 'react'
+import "antd/dist/antd.css";
 import  {Provider}  from 'react-redux';
 import { BrowserRouter as Router } from 'react-router-dom';
 import AppContainer from './AppContainer';

@@ -8,7 +8,6 @@ class AppContainer extends Component<AppContainerProps, {}> {
         const { ethereum } = windowObj
         console.log('ethereum', ethereum)
     }
-
     render() {
         const { children } = this.props
         return <>{children}</>

@@ -1,17 +1,16 @@
 .ant-layout-sider-trigger {
-    box-shadow: inset 0px 1px 0px #f0f0f0;
-  
-    &:hover span {
-      color: #1890ff;
-    }
+  box-shadow: inset 0px 1px 0px #f0f0f0;
+
+  &:hover span {
+    color: #1890ff;
   }
-  
-  .ant-form-item-label
-  > label.ant-form-item-required:not(.ant-form-item-required-mark-optional)::before {
-    display: none;
-  }
-  
-  .ant-switch-inner {
-    color: rgba(0, 0, 0, 0.85);
-  }
-  
+}
+
+.ant-form-item-label
+> label.ant-form-item-required:not(.ant-form-item-required-mark-optional)::before {
+  display: none;
+}
+
+.ant-switch-inner {
+  color: rgba(0, 0, 0, 0.85);
+}
